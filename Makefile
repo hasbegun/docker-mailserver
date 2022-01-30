@@ -1,6 +1,6 @@
 SHELL = /bin/bash
 
-NAME   ?= mailserver-testing:ci
+NAME   ?= vircadia-mailserver:latest
 VCS_REF = $(shell git rev-parse --short HEAD)
 VCS_VER = $(shell git describe --tags --contains --always)
 
